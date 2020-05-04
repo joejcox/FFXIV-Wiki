@@ -67,13 +67,15 @@ class Profile extends React.Component {
       const { name, server, id, character, loaded } = this.state;
       loaded
         ? (results = (
-            <CharPanel
-              name={name}
-              server={server}
-              id={id}
-              portrait={character.portrait}
-              error="false"
-            />
+            <>
+              <CharPanel
+                name={name}
+                server={server}
+                id={id}
+                portrait={character.portrait}
+                error="false"
+              />
+            </>
           ))
         : (results = (
             <section className="section is-medium is-text-center">

@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet-async";
 
 const CharPanel = (props) => {
   const { name, server, error } = props;
@@ -13,6 +14,11 @@ const CharPanel = (props) => {
     const { id, portrait } = props;
     result = (
       <>
+        <Helmet>
+          <title>
+            {name} - {server} | FFXIV Wiki
+          </title>
+        </Helmet>
         <div className="nameplate">
           <h2>
             {name}: {server} - {id}
