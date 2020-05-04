@@ -1,0 +1,24 @@
+.search-area {
+  background: rgb(63, 57, 73);
+}
+.search-area-items {
+  display: flex;
+  width: 800px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.search-area-input,
+.search-area-data-center,
+.search-area-server {
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  border: none;
+  flex: 1;
+  margin-right: 0.5rem;
+}
+.search-area-input {
+  flex: 2;
+}
+.search-area-submit {
+  width: 50px;
+}
