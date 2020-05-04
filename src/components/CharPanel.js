@@ -29,12 +29,7 @@ const CharPanel = (props) => {
     );
   }
 
-  return (
-    <>
-      {" "}
-      {result} {error}{" "}
-    </>
-  );
+  return <>{result}</>;
 };
 
 export default CharPanel;
