@@ -9,7 +9,7 @@
 input[type="submit"],
 .button {
   border: none;
-  background: rgb(231, 193, 68);
+  background: gold;
   cursor: pointer;
 }
 header {
@@ -30,13 +30,14 @@ ul li a {
   font-size: 16px;
   text-transform: uppercase;
   text-decoration: none;
-  color: rgb(228, 196, 15);
+  color: goldenrod;
   display: inline-block;
   padding: 0.5rem 1rem;
+  font-weight: 500;
 }
 
 ul li a:hover {
-  color: rgb(211, 166, 32);
+  color: gold;
 }
 .container {
   max-width: 1400px;
@@ -52,19 +53,16 @@ section.is-medium {
   text-align: center;
 }
 .home-content {
-  background: #333;
+  background: rgb(0, 0, 0);
   color: white;
-}
-.home-content h2 {
-  font-size: 1.2em;
+  padding: 0.4rem 0;
 }
 .latest-info {
   font-size: 16px;
-  color: rgb(186, 186, 248);
 }
 .latest-info a {
-  display: inline-block;
-  padding: 0.25rem 0.5rem;
-  background: gold;
-  text-decoration: none;
+  color: goldenrod;
+}
+.latest-info a:hover {
+  color: gold;
 }

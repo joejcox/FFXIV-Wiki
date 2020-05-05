@@ -15,10 +15,9 @@ class Home extends React.Component {
         </Helmet>
         <section className="section home-content">
           <div className="container">
-            <p className="latest-info">
-              <Link to="/" className="button">
-                View Latest Patch Information
-              </Link>
+            <p className="latest-info is-text-center">
+              To keep up to date with the latest FFXIV changes please{" "}
+              <Link to="/">view the latest patch notes</Link>
             </p>
           </div>
         </section>
