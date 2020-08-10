@@ -1,4 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Notice
+
+This app will not work without a valid API Key from https://xivapi.com
 
 ## Available Scripts
 
