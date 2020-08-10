@@ -2,6 +2,10 @@
 
 This app will not work without a valid API Key from https://xivapi.com
 
+## Demo
+
+This site was built using React JS. You can view an example of the site so far at https://ffxivwiki.herokuapp.com - A character you can search for as an example is "Mei Onis" on the "Cerberus" server.
+
 ## Available Scripts
 
 In the project directory, you can run:
